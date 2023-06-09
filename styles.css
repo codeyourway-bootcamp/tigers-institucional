@@ -1,3 +1,43 @@
 html {
   background-color: rgba(132, 68, 4, 0.838);
 }
+.header-menu{
+  display: fixed;
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  flex-flow: wrap;
+  background: rgba(75, 24, 24, 0.781);
+}
+.nav-input{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  list-style: none;
+  gap: 25px;
+}
+.nav-menu{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 25px;
+}
+.title{
+    justify-content: center;
+}
+.nav-input2{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;  
+  gap: 25px
+
+}
+ul{
+  list-style: none;
+  text-decoration: none;
+  padding: 8px;
+}
+.galery-menu{
+  display: flex;
+  justify-content: center;
+}
