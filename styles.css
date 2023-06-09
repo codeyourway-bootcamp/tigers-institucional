@@ -7,12 +7,26 @@ html {
   justify-content: space-between;
   width: 1200px;
   flex-flow: wrap;
-  background: rgba(75, 24, 24, 0.781);
+  background: rgba(75, 24, 24, 0.781);  
+}
+h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(65, 13, 13);
+}
+a{
+  list-style: none;
+  text-decoration: none;
+  border: 2px;
+  border-radius: 8px;
+  
 }
 .nav-input{
   display: flex;
   justify-content: center;
   text-decoration: none;
+  color: white;
   list-style: none;
   gap: 25px;
 }
