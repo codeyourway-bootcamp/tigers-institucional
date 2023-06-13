@@ -32,7 +32,7 @@ h1 {
 }
 .nav-input {
   display: inline-flex;
-  justify-content: center;
+  justify-content: space-around;
   text-decoration: none;
   flex-direction: row;
   color: white;
@@ -43,8 +43,8 @@ h1 {
   
 }
 .nav-menu {
-  display: inline;
-  justify-content: center;
+  display: inline-flex;
+  justify-content: space-around;
   align-content: center;
   list-style: none;
   border: 2px;
@@ -67,6 +67,8 @@ h1 {
   border: 2px;
   border-radius: 5px;
   background: brown;
+  padding: 3px;
+  margin: 5px;
   width: 150px;
   gap: 25px;
 }
@@ -80,15 +82,17 @@ ul {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 400px;
-  gap: 30px;
+  flex-wrap: nowrap ;
+  margin-bottom: 150px;
+  width: 900px;
+  gap: 15px;
 }
 
 /*html {
   background-color: rgb(0, 0, 0);
 }
 .header-menu {
-  display: fixed;
+ c
   display: flex;
   justify-content: space-between;
   width: 1200px;
