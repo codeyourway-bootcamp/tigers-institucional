@@ -14,10 +14,15 @@ body{
 }
 
 header{
+  /*display: flex;
+  justify-content: space-between;
+  margin: 0px 150px;
+  align-items: center;*/   
   display: flex;
   justify-content: space-between;
   margin: 0px 150px;
   align-items: center;
+  max-width: 1800px;
   
 }
 
@@ -42,8 +47,14 @@ li{
 
 .countainer-navigation{
   display: flex;
-}/*
+}
+.text{
+margin-top: 50px;
 
+}
+
+
+/*
 .countainer-presentation{
   justify-content: center;
   align-items: center;
