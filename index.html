@@ -1,58 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Madeiro&Brasa-Parrilla</title>
-    <link rel="stylesheet" href="./styles.css">
-</head>
-<body>
-    <header> <!--cabecalho(logomarca, navegacao interna e externa). -->
-        <img class="logomark" src="" alt="">
-        <nav class="nav-input">
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </nav>
-        <nav class="nav-output">
-           <img src="" alt="">
-           <img src="" alt="">            
-        </nav>
+    <link rel="stylesheet" href="./home.style.css" />
+  </head>
+  <body>
+    <header>
+      <!--cabecalho(logomarca, navegacao interna e externa). -->
+      <img class="logomark" src="./Img/logomark-madeiro&brasa.png" alt="" />
+      <nav class="nav-input">
+        <ul class="ul-main">
+          <li class="li-sun"><a class="link-navigation-in" href="home.html">Home</a></li>
+          <li class="li-sun"><a class="link-navigation-in" href="aboult us.html">About us</a></li>
+          <li class="li-sun"><a class="link-navigation-in" href="menu.html">Menu</a></li>
+          <li class="li-sun"><a class="link-navigation-in" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
     </header>
-    <section> <!--container imagem.-->
-        <h1>MADEIRO & BRASA </br> PARRILLA</h1>
-        <div class="container-carousel">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-        </div>
+    <section class="carousel">
+      <div class="carousel-inner">
+        <img class="image-carousel" src="./Img/imagem1.jpg" alt="Imagem 1" />
+        <img class="image-carousel"src="./Img/imagem2.jpg" alt="Imagem 2" />
+        <img class="image-carousel"src="./Img/imagem3.jpg" alt="Imagem 3" />
+        <img class="image-carousel"src="./Img/imagem4.jpg" alt="Imagem 4" />
+      </div>
     </section>
-    <div> <!--breve descricao. -->
-        <p>
-            especializacao da casa
-        </p>
+    <div>
+      <!--breve descricao. -->
+      <h1 class="what-is-it">O que é Parrilla?</h1>
+      <p class="text-about-parrilla">
+        A parrilla é um estilo tradicional dechurrasco argentino, onde a carne é
+        grelhada em uma grelha suspensa sobre brasas delenha.
+        <br />É um método de cozimento que realça o sabor da carne, resultando
+        em textura suculenta e um delicioso aroma defumado. <br />
+        A parrilla é uma técnica popular e apreciada por amantes de churrasco em
+        todo o mundo.
+      </p>
     </div>
-    <section> <!--navegacao interna.-->
-        <nav class="nav-input2">
-            <ul>
-                <li><a href="./aboult us.html">SOMOS</a></li>
-                <li><a href="./menu.html" >CARDAPIO</a></li>
-                <li><a href="https://api.whatsapp.com/send?phone=5561983284730&text=Vamos%20reservar%20sua%20mesa%3F!" target="_blank">RESERVAS</a></li>
-                <li><a href="./contact.html">CONTATOS</a></li>
-            </ul>
-        </nav>
-    </section> 
-    <footer> <!--rodape(navegacao externa...)-->
-        <nav class="nav-output">
-           <img src="" alt="">
-           <img src="" alt="">            
-        </nav>
-    </footer>   
-</body>
+      <footer class="footer-main">    <!--rodape(navegacao externa...)-->
+      <nav class="nav-input2">
+        <ul class="ul-footer">
+          <li class="li-footer">
+            <a class="link-footer" href="./aboult us.html">ABOUT US</a></li>
+          <li class="li-footer"><a class="link-footer" href="./menu.html">MENU</a></li>
+          <li class="li-footer">
+            <a class="link-footer" href="https://api.whatsapp.com/send?phone=5561983284730&text=Vamos%20reservar%20sua%20mesa%3F!" target="_blank"
+              >RESERVE</a>
+          </li>
+          <li  class="li-footer">
+            <a class="link-footer" href="./contact.html">CONTACTS</a>
+          </li>
+        </ul>
+    </footer>
+  </body>
 </html>
