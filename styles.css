@@ -131,17 +131,28 @@ h1{
 .link-nav-input2{
   text-decoration: none;
   color: black;
-  background-color: white;
+  background-color: rgb(250, 250, 250);
   border-radius: 2%;
   
 }
-
-.text-about-madeiro{
-  color: white;
-  font-style: italic;
-  font
+.about-us{
+  background-color: rgb(189, 175, 129);
 }
-
+.text-about-madeiro{
+  color: rgb(12, 12, 12);
+  font-style: italic;
+  padding: 40px;
+  text-align: center;
+ 
+  
+}
 .container-about{
   display: flex;
+  justify-content: space-between;
+
+}
+.link-navigation-in{
+  text-decoration: none;
+  color: rgb(252, 249, 249);
+
 }
