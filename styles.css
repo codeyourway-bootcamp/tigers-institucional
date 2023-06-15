@@ -13,10 +13,12 @@ body{
 }
 
 header{
+  width: 1024px;
   display: flex;
   justify-content: space-between;
   margin: 0px 150px;
   align-items: center;
+  
   
 }
 
@@ -24,12 +26,12 @@ header{
   width: 150px;
 }
 
-ul{
+.ul-main{
   display: flex;
   list-style: none;
 }
 
-li{
+.li-sun{
   color: white;
   padding: 10px;
 }
@@ -42,17 +44,7 @@ li{
 
 .countainer-navigation{
   display: flex;
-}/*
-
-.countainer-presentation{
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin: 0% 100px;
-  display: flex;
-  
-}*/
-
+}
 
 .carousel{
   width: 100%;
@@ -108,10 +100,12 @@ li{
   width: 900px;
 }
 
+.image-carousel{
+  width: 1024px;
+  height: 300px;
+}
 
-
-
-h1{
+.what-is-it{
   color: white;
   justify-content: center;
   text-align: center;
@@ -134,7 +128,7 @@ h1{
   flex-direction: column;
   align-items: center;
   text-decoration: none;
-  
+  margin: 0px 150px;
 }
 
 .link-nav-input2{
@@ -143,4 +137,24 @@ h1{
   background-color: white;
   border-radius: 2%;
   
+}
+
+.footer-main{
+  background-color: white;
+  width: 100%;
+  
+}
+
+.ul-footer {
+  list-style: none;
+}
+
+.li-footer{
+  
+}
+
+.link-footer{
+  color: black;
+  list-style: none;
+  text-decoration: none;
 }
