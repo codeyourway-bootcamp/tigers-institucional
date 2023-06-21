@@ -10,14 +10,12 @@
   <body>
     <header class="header-menu">
       <!--cabecalho(logomarca, navegacao interna e externa). -->
-      <a href="./index.html"><img class="logomark" src="https://scontent.fopo3-2.fna.fbcdn.net/v/t39.30808-6/341095297_761002135434501_5851381330418411686_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=tFpTTKRrDx0AX_4-FAe&_nc_ht=scontent.fopo3-2.fna&oh=00_AfB_3cPA_yIqWWbeGS9VcgmTgdC8fTDLKIft0kdyc4gWxA&oe=648F91FB" alt="logomarca" />
-      </a>
-      <nav>
-        <ul >
-          <li class="nav-input"><a href="./index.html">Home</a></li>
-          <li class="nav-input"><a href="./aboult us.html">Sobre Nós</a></li>
-          <li class="nav-input"><a href="./menu.html">Cardapio</a></li>
-          <li class="nav-input"><a href="./contact.html">Contatos</a></li>
+      <a href="./index.html"><img class="logomark" src="./Img/logomark-madeiro&brasa.png" alt="logomarca" /></a>
+      <nav class="nav-input" >
+         <a href="./index.html"><button class="btn1"> Home</button></a>
+         <a href="./about.html"><button class="btn1"> Quem Somos</button>
+         <a href="./menu.html"><button class="btn1"> Cardapio</button></a>
+         <a href="./contact.html"><button class="btn1"> Contactos</button></a>
         </ul>
       </nav>
       <nav class="nav-output">
@@ -29,43 +27,119 @@
     <section class="title">
       <!--Galeria menu.-->
       <h1>Sobremesas</h1>
+      <hr>
       <div>
-        <nav>
-          <ul >
-            <li class="nav-menu"><a href="./meat.html">Carnes</a></li>
-            <li class="nav-menu"><a href="./desserts.html">Sobremesas</a></li>
-            <li class="nav-menu"><a href="./drinks.html">Bebidas</a></li>
-            <li class="nav-menu"><a href="./buffet.html">Buffet</a></li>
-          </ul>
+        <nav class="nav-menu">
+          <a href="meat.html"><button class="btn"> Carnes</button></a>
+          <a href="desserts.html"><button class="btn"> Sobremesas</button></a> 
+          <a href="drinks.html"><button class="btn"> Bebidas</button></a> 
+          <a href="buffet.html"><button class="btn"> Buffet</button></a>  
         </nav>
       </div>
     </section>
     <section>
-      <div class="galery-menu">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2Y6zj6EiEn2DRTqzSVwceOFEemdB_3AyGhA&usqp=CAU" alt="Sobremesas" />
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrxSeCWDzjSFBUpsbYTcdHy3yibyNBaBj-zQ&usqp=CAU" alt="Sobremesas" />
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRITcUs0ZFJyBADuo9VnSBgTv12AyHP3wQJcw&usqp=CAU" alt="Sobremesas" />
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9UsYEh0eOrm-lz2KejdGkkzOLW6k81sWXQw&usqp=CAU" alt="Sobremesas" />
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5QZlQr5imzC90rslGV5V5dBD2g8dk1gWLzA&usqp=CAU" alt="Sobremesas" />
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSUAdWLgk3bt8_rPDpETLMvpeGAzFg-2ljLQ&usqp=CAU" alt="Sobremesas" />
-      </div>
+      <div class="galery-menu"> 
+        <div class="container">
+          <div class="content">
+              <div class="image">
+                  <img src="data:image/jpeg;base64,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">
+              </div>
+              <div class="texto">
+                  <h3>Picanha a Moda</h3>
+                  <hr>
+                  <p>R$250,00</p>
+                  <hr>                  
+              </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="content">
+              <div class="image">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRKsR8pJZiOjmQowYieth_ML7bFqv0TMEm7g&usqp=CAU">
+              </div>
+              <div class="texto">
+                  <h3>Maminha a Moda</h3>
+                  <hr>
+                  <p>R$150,00</p>
+                  <hr>                  
+              </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="content">
+              <div class="image">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMp8oKwv5PeUvgwRABWiKEp22K7gwswP7h_Q&usqp=CAU">
+              </div>
+              <div class="texto">
+                  <h3>Pernil</h3>
+                  <hr>
+                  <p>R$80,00</p>
+                  <hr>                  
+              </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="content">
+              <div class="image">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh7lRP9FDt5N4wFt9OmRCJRph2nt-xYWZDtQ&usqp=CAU">
+              </div>
+              <div class="texto">
+                  <h3>Especial da Casa</h3>
+                  <hr>
+                  <p>R$150,00</p>
+                  <hr>                  
+              </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="content">
+              <div class="image">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwYU2JbVi8Rh1Zr8fBLbTmjQpntacRWUP8Uw&usqp=CAU">
+              </div>
+              <div class="texto">
+                  <h3>Especial da Casa</h3>
+                  <hr>
+                  <p>R$150,00</p>
+                  <hr>                  
+              </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="content">
+              <div class="image">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlPfGhMlQG7MI0H2YpfMH3_9RwdOyzgAoM5g&usqp=CAU">
+              </div>
+              <div class="texto">
+                  <h3>Especial da Casa</h3>
+                  <hr>
+                  <p>R$150,00</p>
+                  <hr>                  
+              </div>
+          </div>
+        </div>
+      </div>  
     </section>
     <section>
       <!--navegacao interna.-->
-      <nav>
-          <li class="nav-input2"><a href="./index.html">INICIO</a></li>
-          <li class="nav-input2"><a href="./aboult us.html">QUEM SOMOS</a></li>
-          <li class="nav-input2"><a href="./menu.html">CARDAPIO</a></li>
-          <li class="nav-input2"><a href="./contact.html">CONTATOS</a></li>
-        </ul>
+      <nav class="nav-input2" >
+        <a href="index.html"><button class="btn"> Home</button></a>
+        <a href="about.html"><button class="btn"> Sobre Nós</button></a> 
+        <a href="menu.html"><button class="btn"> Cardapio</button></a> 
+        <a href="contact.html"><button class="btn"> Contactos</button></a>  
       </nav>
+      <hr>
     </section>
     <footer>
+      <div>
+        <h5>@Team Tigers 2023</h5>
+      </div>
       <!--rodape(navegacao externa...)-->
       <nav class="nav-output">
-        <img src="" alt="" />
-        <img src="" alt="" />
+        <a href="https://www.facebook.com/madeiroebrasa/" target="_blank"><img src="./Img/facebook48.svg" alt="facebook" /></a>
+        <a href="//www.instagram.com/madeiroebrasa/?hl=en" target="_blank"><img src="./Img/instagram48.svg" alt="logo instagram" /></a>
+        <a href="https://api.whatsapp.com/send?phone=5561983284730&text=Vamos%20reservar%20sua%20mesa%3F!" target="_blank"><img src="./Img/whatsapp48.svg" alt="whatsapp" /></a>
       </nav>
     </footer>
   </body>
 </html>
+

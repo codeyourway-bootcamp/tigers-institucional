@@ -11,105 +11,60 @@ html {
   background-color: black;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
-  body{
+body{
     margin: 0;
     padding: 0;
     height: 100vh;
     width: 100%;
   }
   
-  header{
+header {    
     display: flex;
-    justify-content: space-between;
-    margin: 0px 150px;
+    justify-content: space-evenly;
+    margin: 20px 40px;
     align-items: center;
-    
+    max-width:100vw;
+  }
+footer{
+    display: flex;
+    justify-content: center;
+    margin: 20px 40px;
+    align-items: center;
+    max-width:100vw;
+    color: white;
+    gap: 30px;
+  
   }
   
-  .logomark{
+.logomark{
     width: 150px;
   }
   
-  ul{
-    display: flex;
-    list-style: none;
-  }
-  
-  li{
-    color: white;
-    padding: 10px;
-  }
-  
-  .link-navigation-in{
-    text-decoration: none;
-    color: white;
-  }
-  
-  .countainer-navigation{
-    display: flex;
-  }
-  
-  .countainer-presentation{
-    justify-content: center;
+.btn1{
+    cursor: pointer;
+    border: 1px solid #9d6d605f;
+    background-color: transparent;
+    height: 35px;
+    width: 150px;
+    color: #9d6d605f;
+    font-size: 15pt;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);justify-content: center;
     align-items: center;
-    flex-direction: column;
-    margin: 0% 100px;
-    display: flex;
-    
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-image: -webkit-linear-gradient(45deg,transparent 50%,);
+    transition: 300ms ease-in-out;
+    -webkit-transition: 300ms ease-in-out;
+    background-image: linear-gradient(45deg, transparent 50% ,);
+    background-position: 100%;
+    background-size: 400%;
   }
-  
-  
-  .countainer-carrousel{
-    margin: 0% 100px;
-    border-color: white;
-    border-style: solid;
-  }
-  
-  .img-caroussel1{
-    width: 1200px;
-    border: solid 1px white;
-  }
-    
-  
-  
-  h1{
+.btn1:hover{
     color: white;
-    justify-content: center;
-    text-align: center;
+    background-position: 0;
+    cursor: pointer;
   }
-  
-  .text-about-parrilla{
-    color: white;
-    justify-content: center;
-    display: flex;
-    text-align: center;
-  }
-  .countainer-nav-input2{
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    
-  }
-  .nav-input2{
-    flex-direction: column;
-    align-items: center;
-    text-decoration: none;
-    
-  }
-  
-  .link-nav-input2{
-    text-decoration: none;
-    color: black;
-    background-color: white;
-    border-radius: 2%;
-    
-  }
-
-
-
-
-
 .body-contact {
   width: 100%;
   height:100vh;
@@ -117,7 +72,6 @@ html {
   flex-direction: column;
   justify-content: center;
 }
-
 .contact-container {
   min-width: 960px;
   margin: auto;
@@ -130,6 +84,7 @@ html {
   border-radius: 0.5rem;
   overflow: hidden; 
   padding: 0 20px;
+  box-shadow: 2px 5px 10px #776363;
 }
 
 .form-container {
@@ -205,10 +160,7 @@ height: 100%;
     margin: auto;
     width: 90%;
   }
-  
 }
-
-
 
 @media (max-width:900px) {
   .contact-container {
